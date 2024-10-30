@@ -1,7 +1,6 @@
 ---
 title: Goblin
 img: goblin.jpg
-link: 
-
-tge:
+link: https://t.me/GoblinMine_bot/start?startapp=250404222
+tge: Proximamente
 ---

@@ -1,10 +1,10 @@
-import {defineColection,z} from 'astro:content';
-const airdorps=defineColection({
-    schema:z.object({
-        title:z.string(),
-        img:z.string().url(),
-        link:z.string().url(),
-        tge:z.string()
-    })
-})
-export const collections={airdorps};
+import { z, defineCollection } from "astro:content";
+const airdrops = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    img: z.string(),
+    link: z.string().url(),
+    tge: z.string(),
+  }),
+});
+export const collections = { airdrops };
